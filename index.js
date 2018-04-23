@@ -1,5 +1,5 @@
 function produceDrivingRange(drivingRange){
   return function(distance){
-    return drivingRange > distance;
+    return drivingRange >= distance;
   }
 }
