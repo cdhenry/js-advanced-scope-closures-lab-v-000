@@ -3,3 +3,9 @@ function produceDrivingRange(drivingRange){
     return drivingRange >= distance;
   }
 }
+
+function produceTipCalculator(percentTip){
+  return function(bill){
+    return bill * percentTip;
+  }
+}
