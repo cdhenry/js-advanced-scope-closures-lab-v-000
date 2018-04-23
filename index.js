@@ -1,4 +1,4 @@
-function produceDrivingRange(drivingRange){
+function produceDrivingRange(blockRange){
   return function(distance){
     return drivingRange >= distance;
   }
